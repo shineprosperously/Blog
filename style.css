@@ -19,6 +19,18 @@ a {
   align-items: center;
 }
 
+.navbar__home {
+  height: 40px;
+}
+
+#navbar img {
+  height: 100%;
+}
+
+#navbar a {
+  height: 100%;
+}
+
 .navbar__menu {
   display: flex;
 }
@@ -39,9 +51,11 @@ a {
 }
 
 #welcome img {
+  box-sizing: border-box;
+  width: 100px;
+  padding: 10px;
   background-color: white;
   border-radius: 50%;
-  border-style: double;
 }
 
 #welcome p {
