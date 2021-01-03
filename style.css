@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__menu {
+  display: flex;
+}
+
+.navbar__menu__item {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.navbar__menu__item:hover {
+  font-weight: 800;
+}
+
+#welcome {
+  background-color: grey;
+  text-align: center;
+  padding: 40px;
+}
+
+#welcome img {
+  background-color: white;
+  border-radius: 50%;
+  border-style: double;
+}
+
+#welcome p {
+  margin: 0;
+}
+
+#about {
+  text-align: center;
+}
+
+#careers {
+  background-color: grey;
+  text-align: center;
+}
+
+#works {
+  text-align: center;
+}
+
+#skillset {
+  background-color: grey;
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}

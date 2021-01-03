@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LEE CHANG-HEE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <!-- menu -->
@@ -12,78 +14,70 @@
             <a href="index.html">LEE CHANG-HEE</a>
         </div>
 
-        <div class="navbar__menu">
-            <ul>
-                <li class="navbar__menu__item">ABOUT</li>
-                <li class="navbar__menu__item">WORK</li>
-                <li class="navbar__menu__item">BLOG</li>
-                <li class="navbar__menu__item">CONTACT</li>
-            </ul>
-        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item">ABOUT</li>
+            <li class="navbar__menu__item">WORK</li>
+            <li class="navbar__menu__item">BLOG</li>
+            <li class="navbar__menu__item">CONTACT</li>
+        </ul>
     </header>
 
     <!-- welcome message -->
-    <content id="welcome">
-        <img src="imgs/avatar.jpg" alt="">
+    <section id="welcome">
+        <img src="imgs/avatar.png" alt="">
         <h1>LEE CHANG-HEE</h1>
-        <h3>Software Engineer</h3>
-    </content>
+        <p>Software Engineer</p>
+    </section>
 
     <!-- about me -->
-    <content id="about">
+    <section id="about">
         <div class="about__about_me">
             <h2>About Me</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi quaerat sunt nostrum id facere dolorem dolores, omnis officia eum fuga hic excepturi est nemo laudantium aperiam illum expedita, tenetur molestiae!</p>
         </div>
+    </section>
+    <section id="careers">
+        <h2>Career</h2>
+        <ul>
+            <li class="career">
+                <div class="career__role">Application Developer</div>
+                <div class="career__period">2014.11 ~ 2015.10</div>
+                <div class="career__skill">Java, SQL</div>
+            </li>
+            <li class="career">
+                <div class="career__role">Application Operator</div>
+                <div class="career__period">2015.11 ~ 2017.1</div>
+                <div class="career__skill">Java, SQL</div>
+            </li>
+            <li class="career">
+                <div class="career__role">Application Designer</div>
+                <div class="career__period">2017.1 ~ 2017.3</div>
+                <div class="career__skill">Java, SQL</div>
+            </li>
+            <li class="career">
+                <div class="career__role">Project Manager</div>
+                <div class="career__period">2017.3 ~ 2017.7</div>
+                <div class="career__skill">Java, SQL</div>
+            </li>
+            <li class="career">
+                <div class="career__role">Application Designer</div>
+                <div class="career__period">2017.7 ~ 2019.2</div>
+                <div class="career__skill">Java, SQL</div>
+            </li>
+            <li class="career">
+                <div class="career__role">Application Operator</div>
+                <div class="career__period">2019.2 ~ 2020.8</div>
+                <div class="career__skill">Java, SQL</div>
+            </li>
+            <li class="career">
+                <div class="career__role">Application Designer</div>
+                <div class="career__period">2020.9 ~ </div>
+                <div class="career__skill">Java, SQL</div>
+            </li>
+        </ul>
+    </section>
 
-        <div class="about__major">
-            <h2>Major</h2>
-            Computer Engineering
-        </div>
-
-        <div class="about__careers">
-            <h2>Career</h2>
-            <ul>
-                <li class="about__career">
-                    <div class="about__career__role">Application Developer</div>
-                    <div class="about__career__period">2014.11 ~ 2015.10</div>
-                    <div class="about__career__skill">Java, SQL</div>
-                </li>
-                <li class="about__career">
-                    <div class="about__career__role">Application Operator</div>
-                    <div class="about__career__period">2015.11 ~ 2017.1</div>
-                    <div class="about__career__skill">Java, SQL</div>
-                </li>
-                <li class="about__career">
-                    <div class="about__career__role">Application Designer</div>
-                    <div class="about__career__period">2017.1 ~ 2017.3</div>
-                    <div class="about__career__skill">Java, SQL</div>
-                </li>
-                <li class="about__career">
-                    <div class="about__career__role">Project Manager</div>
-                    <div class="about__career__period">2017.3 ~ 2017.7</div>
-                    <div class="about__career__skill">Java, SQL</div>
-                </li>
-                <li class="about__career">
-                    <div class="about__career__role">Application Designer</div>
-                    <div class="about__career__period">2017.7 ~ 2019.2</div>
-                    <div class="about__career__skill">Java, SQL</div>
-                </li>
-                <li class="about__career">
-                    <div class="about__career__role">Application Operator</div>
-                    <div class="about__career__period">2019.2 ~ 2020.8</div>
-                    <div class="about__career__skill">Java, SQL</div>
-                </li>
-                <li class="about__career">
-                    <div class="about__career__role">Application Designer</div>
-                    <div class="about__career__period">2020.9 ~ </div>
-                    <div class="about__career__skill">Java, SQL</div>
-                </li>
-            </ul>
-        </div>
-    </content>
-
-    <content id="works">
+    <section id="works">
         <h2>Toy Projects</h2>
         <ul>
             <li class="work">Java Wiki</li>
@@ -93,9 +87,9 @@
             <li class="work">Mobile POS</li>
             <li class="work">Photo Manager</li>
         </ul>
-    </content>
+    </section>
 
-    <content id="skillset">
+    <section id="skillset">
         <h2>Skill Set</h2>
         <ul>
             <li class="skill">Java</li>
@@ -106,12 +100,12 @@
             <li class="skill">Ruby</li>
             <li class="skill">SQL</li>
         </ul>
-    </content>
+    </section>
 
-    <content id="contact">
+    <section id="contact">
         <h2>Contact Me</h2>
         shineprosperously@outlook.com
-    </content>
+    </section>
     
     <footer id="foooter">
         2021 Lee Chang-Hee
