@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 ul {
@@ -9,26 +10,29 @@ ul {
 a {
   text-decoration: none;
   color: black;
-  font-size: 30px;
-  font-weight: 800;
 }
 
 #navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 60px;
 }
 
 .navbar__home {
-  height: 40px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  height: 100%;
 }
 
 #navbar img {
-  height: 100%;
+  height: 70%;
+  vertical-align: middle;
 }
 
-#navbar a {
-  height: 100%;
+#navbar span {
+  vertical-align: middle;
 }
 
 .navbar__menu {
@@ -44,10 +48,34 @@ a {
   font-weight: 800;
 }
 
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  /* margin: 0; */
+}
+
+ul {
+  margin: 0;
+}
+
+section div {
+  width: 700px;
+  text-align: center;
+  margin: auto;
+}
+
 #welcome {
-  background-color: grey;
+  background-color: #f9f9f9;
   text-align: center;
   padding: 40px;
+  border-top: grey 1px solid;
+  border-bottom: grey 1px solid;
 }
 
 #welcome img {
@@ -55,31 +83,37 @@ a {
   width: 100px;
   padding: 10px;
   background-color: white;
+  border: grey 1px solid;
   border-radius: 50%;
-}
-
-#welcome p {
-  margin: 0;
 }
 
 #about {
   text-align: center;
+  padding: 40px;
 }
 
 #careers {
-  background-color: grey;
+  background-color: #f9f9f9;
   text-align: center;
+  padding: 40px;
+  border-top: grey 1px solid;
+  border-bottom: grey 1px solid;
 }
 
 #works {
   text-align: center;
+  padding: 40px;
 }
 
 #skillset {
-  background-color: grey;
+  background-color: #f9f9f9;
   text-align: center;
+  padding: 40px;
+  border-top: grey 1px solid;
+  border-bottom: grey 1px solid;
 }
 
 #contact {
   text-align: center;
+  padding: 40px;
 }
